@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <title>
+    DnD Tool
+  </title>
+</head>
+
+<body>
+  <div class="container-main">
+    <div class="container">
+      <div class="header">
+        <div class="header-img">
+          <img id="main-logo" />
+        </div>
+        <div class="header-title">
+          <h1>Battleboard</h1>
+        </div>
+      </div>
+      <div class="dashboard">
+        <div class="dashboard-left">
+          <div>
+            <h3 class="dashboard-header">Change battlemap</h3>
+            <form class="map-form">
+              <input id="battlemap-url" type="text" placeholder="Insert URL" />
+              <button class="map-url btn1" type="button" data-value="battlemap">
+                Show battle map
+              </button>
+            </form>
+          </div>
+          <div>
+            <h3 class="dashboard-header">Change world map</h3>
+            <form class="map-form">
+              <input id="worldmap-url" type="text" placeholder="Insert URL" />
+              <button class="map-url btn1" type="button" data-value="worldmap">
+                Show world map
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="dashboard-middle">
+          <h3 class="dashboard-header">Enter combatants</h3>
+          <div class="dashboard-middle-container">
+            <div class="dashboard-middle-container-left">
+              <div>
+                <h2 class="combatant-header">
+                  Players<span class="new-combatant-field material-symbols-outlined" id="add-new-player"
+                    data-value="pl">
+                    add
+                  </span>
+                </h2>
+              </div>
+              <div id="combatant-pl-form-container">
+              </div>
+            </div>
+            <div class="dashboard-middle-line"></div>
+            <div class="dashboard-middle-container-right">
+              <div>
+                <h2 class="combatant-header">
+                  Enemies<span class="new-combatant-field material-symbols-outlined" id="add-new-enemy" data-value="en">
+                    add
+                  </span>
+                </h2>
+              </div>
+              <div id="combatant-en-form-container">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="dashboard-right">
+          <button id="start-combat" class="btn1">Start combat</button>
+          <a target="_blank" href="./map.html"><button class="btn1" id="display-map">Display map</button></a>
+          <button class="btn1" id="idle-screen-btn">Switch idle</button>
+          <button id="clear-combat-tracker" class="btn1">Clear tracker</button>
+        </div>
+      </div>
+    </div>
+    <div class="container center">
+      <div class="f1">
+        <div><button id="arrow-left" class="arrow-btn">
+            < </button>
+        </div>
+        <div id="combatant-tracker">
+          <div class="combatant-slide combatant-player combatant-slide-active">
+            <img class="combatant-image">
+            <div class="combatant-card-name">
+              <p>Player</p>
+            </div>
+          </div>
+          <div class="combatant-slide combatant-player">
+            <img class="combatant-image">
+            <div class="combatant-card-name">
+              <p>Player</p>
+            </div>
+          </div>
+          <div class="combatant-slide combatant-enemy">
+            <img class="combatant-image">
+            <div class="combatant-card-name">
+              <p>Skeleton archer</p>
+            </div>
+          </div>
+          <div class="combatant-slide combatant-player">
+            <img class="combatant-image">
+            <div class="combatant-card-name">
+              <p>Skeleton Mage</p>
+            </div>
+          </div>
+          <div class="combatant-slide combatant-enemy">
+            <img class="combatant-image">
+            <div class="combatant-card-name">
+              <p>Skeleton Warrior</p>
+            </div>
+          </div>
+        </div>
+        <div><button id="arrow-right" class="arrow-btn">></button></div>
+
+      </div>
+      <div>
+        <img id="map-img" />
+      </div>
+    </div>
+  </div>
+<script defer src="index.bundle.97817206d04955b6dce9.js"></script></body>
+
+</html>

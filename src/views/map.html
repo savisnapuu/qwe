@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+</head>
+
+<body>
+  <div id="idle-screen">
+    <img id="idle-screen-img">
+  </div>
+  <img id="main-img">
+  <div id="combatant-tracker">
+    <div class="combatant-slide combatant-player combatant-slide-active">
+      <img class="combatant-image">
+      <div class="combatant-card-name">
+        <p>Player</p>
+      </div>
+    </div>
+    <div class="combatant-slide combatant-player">
+      <img class="combatant-image">
+      <div class="combatant-card-name">
+        <p>Player</p>
+      </div>
+    </div>
+    <div class="combatant-slide combatant-enemy">
+      <img class="combatant-image">
+      <div class="combatant-card-name">
+        <p>Skeleton archer</p>
+      </div>
+    </div>
+    <div class="combatant-slide combatant-player">
+      <img class="combatant-image">
+      <div class="combatant-card-name">
+        <p>Skeleton mage</p>
+      </div>
+    </div>
+    <div class="combatant-slide combatant-enemy">
+      <img class="combatant-image">
+      <div class="combatant-card-name">
+        <p>Skeleton warrior</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

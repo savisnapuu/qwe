@@ -1,0 +1,402 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&display=swap);
+
+$poppins: "Poppins", sans-serif;
+$cinzel: "Cinzel", serif;
+
+* {
+  font-family: $poppins;
+}
+
+.f1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+form {
+  display: flex;
+}
+
+.combatant-form {
+  display: flex;
+  max-height: 25px;
+  gap: 2px;
+}
+
+input {
+}
+
+body {
+  margin: 0;
+  background-color: #1b232a;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn1 {
+  background-color: #bffff1;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: #434547;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  border: 2px solid #bffff1;
+  width: 100%;
+}
+
+.btn1:hover {
+  border: 2px solid #bffff1;
+  background-color: white;
+  cursor: pointer;
+  color: black;
+  transition-duration: 0.4s;
+}
+
+#clear-combat-tracker {
+  background-color: #b04444;
+  color: white;
+  border: 2px solid #b04444;
+}
+
+#clear-combat-tracker:hover {
+  background-color: white;
+  color: #b04444;
+  border: 2px solid #b04444;
+  transition-duration: 0.4s;
+}
+
+.container-main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0px;
+  gap: 20px;
+}
+
+.container {
+  max-width: 1600px;
+  width: 100%;
+  gap: 20px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-img img {
+  width: 50px;
+  margin-bottom: -10px;
+}
+
+.header-title h1 {
+  color: white;
+  margin: 0;
+  font-size: 24px;
+}
+
+.dashboard {
+  display: flex;
+  gap: 20px;
+}
+
+.dashboard-header {
+  margin: 0;
+  color: white;
+}
+
+.dashboard-left {
+  max-width: 230px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-left div {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.dashboard-middle-container {
+  display: flex;
+  height: 250px;
+  width: 100%;
+  background-color: #635f6f91;
+  border-radius: 15px;
+}
+
+.pl-name {
+  max-width: 150px;
+  width: 100%;
+}
+
+.pl-hp {
+  max-width: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+.pl-initiative {
+  max-width: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+.pl-bonus {
+  max-width: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+.en-name {
+  max-width: 150px;
+  width: 100%;
+}
+
+.en-hp {
+  max-width: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+.en-initiative {
+  max-width: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+.en-bonus {
+  max-width: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+.dashboard-middle-container-left,
+.dashboard-middle-container-right {
+  width: 50%;
+}
+
+.dashboard-middle-line {
+  width: 1px;
+  background-color: #8f8f8f78;
+  height: 90%;
+  align-self: center;
+}
+
+.dashboard-right {
+  display: flex;
+  flex-direction: column;
+  max-width: 230px;
+  width: 100%;
+  justify-content: center;
+  gap: 20px;
+}
+
+.map-form {
+  background-color: #635f6f91;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.dashboard-middle {
+  flex-grow: 1;
+}
+
+#map-img {
+  width: 1100px;
+  height: 500px;
+  border: 7px groove #bab9b7;
+  display: flex;
+  border-radius: 15px;
+}
+
+#submit-image-url {
+  max-width: 400px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.combatant-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  color: white;
+  gap: 5px;
+}
+
+#add-new-player {
+  background-color: white;
+  border-radius: 50px;
+  color: #1b232a;
+  transition: transform 0.25s, opacity 0.25s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#add-new-player:hover {
+  background-color: #bffff1;
+  cursor: pointer;
+  transform: rotate(90deg);
+  outline: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#add-new-enemy {
+  background-color: white;
+  border-radius: 50px;
+  color: #1b232a;
+  transition: transform 0.25s, opacity 0.25s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#add-new-enemy:hover {
+  background-color: #bffff1;
+  cursor: pointer;
+  transform: rotate(90deg);
+  outline: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#combatant-pl-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  overflow: auto;
+  height: 180px;
+}
+
+#combatant-en-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  overflow: auto;
+  height: 180px;
+}
+
+.ci-remove {
+  background-color: #b04444;
+  border: none;
+  color: white;
+  border-radius: 2px;
+  font-weight: 500;
+}
+
+.ci-remove:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #b04444;
+  transition-duration: 0.4s;
+}
+
+.ci-dice {
+  background-color: #118ab2bd;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.ci-dice:hover {
+  background-color: white;
+  border: none;
+  color: #118ab2bd;
+  transition-duration: 0.4s;
+}
+
+.combatant-form-row {
+  display: flex;
+  justify-content: center;
+}
+
+#combatant-tracker {
+  display: flex;
+  gap: 20px;
+}
+
+.combatant-slide {
+  width: 80px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+}
+
+.combatant-image {
+  width: 100%;
+}
+
+.combatant-player {
+  background-color: #f8f7f7;
+  border: 3px solid #f8f7f7;
+}
+
+.combatant-enemy {
+  border: 3px solid #8e1b1b;
+  background-color: #8e1b1b;
+  color: #fbdfaa;
+}
+
+.combatant-card-name {
+  overflow: auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.combatant-card-name p {
+  font-family: $cinzel;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0;
+  text-align: center;
+}
+
+.combatant-slide-active {
+  background-color: #e0c984;
+  transform: scale(1.1);
+  border: 3px solid #e0c984;
+  color: #1b2732;
+}
+
+.combatant-slide-active {
+  --borderWidth: 3px;
+  position: relative;
+  border-radius: var(--borderWidth);
+}
+
+.arrow-btn {
+  font-size: 20px;
+  cursor: pointer;
+}

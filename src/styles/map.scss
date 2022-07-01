@@ -1,0 +1,93 @@
+@import url(https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&display=swap);
+$cinzel: "Cinzel", serif;
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  justify-content: flex-start;
+}
+
+#main-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#combatant-tracker {
+  display: flex;
+  rotate: 270deg;
+  width: 1200px;
+  justify-content: center;
+  gap: 5px;
+  align-items: start;
+  float: left;
+  left: -512px;
+  position: absolute;
+}
+
+.combatant-slide {
+  width: 60px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.combatant-image {
+  width: 100%;
+}
+
+.combatant-player {
+  background-color: #d7d8d8;
+  border: 3px solid #d7d8d8;
+}
+
+.combatant-enemy {
+  border: 3px solid #8e1b1b;
+  background-color: #8e1b1b;
+  color: #fbdfaa;
+}
+
+.combatant-card-name {
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.combatant-card-name p {
+  font-family: $cinzel;
+  font-weight: 600;
+  font-size: 10px;
+  margin: 0;
+  text-align: center;
+}
+
+.combatant-slide-active {
+  background-color: #e0c984;
+  transform: scale(1.1);
+  border: 3px solid #e0c984;
+  color: #1b2732;
+}
+
+.combatant-slide-active > div > p {
+  font-size: 10px;
+}
+
+#idle-screen {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  z-index: 10;
+  transition: visibility 0s, opacity 1s linear;
+}
+
+#idle-screen-img {
+  transform: rotate(270deg);
+}
