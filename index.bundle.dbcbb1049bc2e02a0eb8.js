@@ -17753,6 +17753,50 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
+/***/ "./src/assets/jukusan.png":
+/*!********************************!*\
+  !*** ./src/assets/jukusan.png ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "jukusan.png";
+
+/***/ }),
+
+/***/ "./src/assets/orc_1.png":
+/*!******************************!*\
+  !*** ./src/assets/orc_1.png ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "orc_1.png";
+
+/***/ }),
+
+/***/ "./src/assets/orc_2.png":
+/*!******************************!*\
+  !*** ./src/assets/orc_2.png ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "orc_2.png";
+
+/***/ }),
+
+/***/ "./src/assets/orc_3.png":
+/*!******************************!*\
+  !*** ./src/assets/orc_3.png ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "orc_3.png";
+
+/***/ }),
+
 /***/ "./src/assets/skeleton_mage.png":
 /*!**************************************!*\
   !*** ./src/assets/skeleton_mage.png ***!
@@ -17783,6 +17827,17 @@ module.exports = __webpack_require__.p + "skeleton_warrior.png";
 
 "use strict";
 module.exports = __webpack_require__.p + "swordnshield.svg";
+
+/***/ }),
+
+/***/ "./src/assets/visna.png":
+/*!******************************!*\
+  !*** ./src/assets/visna.png ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "visna.png";
 
 /***/ })
 
@@ -17917,6 +17972,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_swordnshield_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/swordnshield.svg */ "./src/assets/swordnshield.svg");
 /* harmony import */ var _assets_skeleton_mage_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../assets/skeleton_mage.png */ "./src/assets/skeleton_mage.png");
 /* harmony import */ var _assets_skeleton_warrior_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../assets/skeleton_warrior.png */ "./src/assets/skeleton_warrior.png");
+/* harmony import */ var _assets_jukusan_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../assets/jukusan.png */ "./src/assets/jukusan.png");
+/* harmony import */ var _assets_visna_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../assets/visna.png */ "./src/assets/visna.png");
+/* harmony import */ var _assets_orc_1_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../assets/orc_1.png */ "./src/assets/orc_1.png");
+/* harmony import */ var _assets_orc_2_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../assets/orc_2.png */ "./src/assets/orc_2.png");
+/* harmony import */ var _assets_orc_3_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../assets/orc_3.png */ "./src/assets/orc_3.png");
+
+
+
+
+
 
 
 
@@ -18188,4 +18253,4 @@ btn.addEventListener("click", () => {
 
 /******/ })()
 ;
-//# sourceMappingURL=index.bundle.11ddd74fef5bc9d4f68c.js.map
+//# sourceMappingURL=index.bundle.dbcbb1049bc2e02a0eb8.js.map
