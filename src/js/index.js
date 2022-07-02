@@ -45,6 +45,15 @@ const handleFields = {
       <input class="${t}-bonus" placeholder="Bonus" />
     `;
   },
+  selectHtml() {
+    return `
+      <option value="jukusan">Jukusan</option>
+      <option value="visna">Visna</option>
+      <option value="orc_1">Orc_1</option>
+      <option value="orc_2">Orc_2</option>
+      <option value="orc_3">Orc_3</option>
+    `;
+  },
   newField: (t) => {
     const target = document.getElementById(`combatant-${t}-form-container`);
     const form = document.createElement("form");
@@ -61,6 +70,9 @@ const handleFields = {
       const dice = handleFields.diceButton();
       form.append(dice);
     }
+    const select = document.createElement("select");
+    select.innerHTML = handleFields.selectHtml();
+    form.prepend(select);
     form.append(button);
     div.append(form);
     target.append(div);
@@ -98,9 +110,10 @@ const handleCombatantsData = {
     forms.forEach((form) => {
       let type = form.getAttribute("combatant-type");
       let data = {
-        name: form[0].value,
-        hp: Number(form[1].value),
-        init: Number(form[2].value) + Number(form[3].value),
+        img: form[0].value,
+        name: form[1].value,
+        hp: Number(form[2].value),
+        init: Number(form[3].value) + Number(form[4].value),
         type: type,
       };
       combatantData.push(data);
@@ -138,7 +151,10 @@ const handleSlides = {
       } else {
         div.classList.add("combatant-player");
       }
-      div.innerHTML = handleSlides.slideHtml(sortedcombatantData[i].name);
+      div.innerHTML = handleSlides.slideHtml(
+        sortedcombatantData[i].name,
+        sortedcombatantData[i].img
+      );
       t.append(div);
       div.setAttribute("data-name", sortedcombatantData[i].name);
     }
@@ -147,10 +163,10 @@ const handleSlides = {
     const t = document.getElementById("combatant-tracker");
     t.children[0].classList.add("combatant-slide-active");
   },
-  slideHtml(name) {
+  slideHtml(name, img) {
     return `
         <div class="combatant-card-image">
-          <img src="${skeletonMage}" class="combatant-image">
+          <img src="../src/assets/${img}.png" class="combatant-image">
         </div>
         <div class="combatant-card-name">
           <p>${name}</p>

@@ -23,6 +23,7 @@
   "dependencies": {
     "@glidejs/glide": "^3.5.2",
     "@splidejs/splide": "^4.0.7",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "swiper": "^8.2.5"
   }
 }
