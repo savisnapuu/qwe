@@ -5,9 +5,17 @@ import skeletonMage from "../assets/skeleton_mage.png";
 import skeletonWarrior from "../assets/skeleton_warrior.png";
 import "../assets/jukusan.png";
 import "../assets/visna.png";
+import "../assets/heiko.png";
+import "../assets/kati.png";
 import "../assets/orc_1.png";
 import "../assets/orc_2.png";
 import "../assets/orc_3.png";
+import "../assets/adabra.png";
+import "../assets/dazlyn.png";
+import "../assets/gnerkli.png";
+import "../assets/korboz.png";
+import "../assets/norbus.png";
+import "../assets/random.png";
 
 document.getElementById("main-logo").src = logo;
 
@@ -54,9 +62,17 @@ const handleFields = {
     return `
       <option value="jukusan">Jukusan</option>
       <option value="visna">Visna</option>
+      <option value="heiko">Heiko</option>
+      <option value="kati">Kati</option>
       <option value="orc_1">Orc_1</option>
       <option value="orc_2">Orc_2</option>
       <option value="orc_3">Orc_3</option>
+      <option value="adabra">Adabra</option>
+      <option value="dazlyn">Dazlyn</option>
+      <option value="gnerkli">Gnerkli</option>
+      <option value="korboz">Korboz</option>
+      <option value="norbus">Norbus</option>
+      <option value="random">Random</option>
     `;
   },
   newField: (t) => {
@@ -98,7 +114,7 @@ const handleFields = {
     button.textContent = "casino";
     button.type = "button";
     button.addEventListener("click", () => {
-      button.parentElement.children[2].value =
+      button.parentElement.children[3].value =
         Math.floor(Math.random() * 20) + 1;
     });
     return button;

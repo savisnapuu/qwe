@@ -89,15 +89,15 @@ const handleSlides = {
       } else {
         div.classList.add("combatant-player");
       }
-      div.innerHTML = handleSlides.slideHtml(data[i].name);
+      div.innerHTML = handleSlides.slideHtml(data[i].name, data[i].img);
       t.append(div);
       div.setAttribute("data-name", data[i].name);
     }
   },
-  slideHtml(name) {
+  slideHtml(name, img) {
     return `
         <div class="combatant-card-image">
-          <img src="${skeletonMage}" class="combatant-image">
+          <img src="./${img}.png" class="combatant-image">
         </div>
         <div class="combatant-card-name">
           <p>${name}</p>

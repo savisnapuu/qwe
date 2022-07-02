@@ -17753,6 +17753,50 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
+/***/ "./src/assets/adabra.png":
+/*!*******************************!*\
+  !*** ./src/assets/adabra.png ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "adabra.png";
+
+/***/ }),
+
+/***/ "./src/assets/dazlyn.png":
+/*!*******************************!*\
+  !*** ./src/assets/dazlyn.png ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "dazlyn.png";
+
+/***/ }),
+
+/***/ "./src/assets/gnerkli.png":
+/*!********************************!*\
+  !*** ./src/assets/gnerkli.png ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "gnerkli.png";
+
+/***/ }),
+
+/***/ "./src/assets/heiko.png":
+/*!******************************!*\
+  !*** ./src/assets/heiko.png ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "heiko.png";
+
+/***/ }),
+
 /***/ "./src/assets/jukusan.png":
 /*!********************************!*\
   !*** ./src/assets/jukusan.png ***!
@@ -17761,6 +17805,39 @@ module.exports = styleTagTransform;
 
 "use strict";
 module.exports = __webpack_require__.p + "jukusan.png";
+
+/***/ }),
+
+/***/ "./src/assets/kati.png":
+/*!*****************************!*\
+  !*** ./src/assets/kati.png ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "kati.png";
+
+/***/ }),
+
+/***/ "./src/assets/korboz.png":
+/*!*******************************!*\
+  !*** ./src/assets/korboz.png ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "korboz.png";
+
+/***/ }),
+
+/***/ "./src/assets/norbus.png":
+/*!*******************************!*\
+  !*** ./src/assets/norbus.png ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "norbus.png";
 
 /***/ }),
 
@@ -17794,6 +17871,17 @@ module.exports = __webpack_require__.p + "orc_2.png";
 
 "use strict";
 module.exports = __webpack_require__.p + "orc_3.png";
+
+/***/ }),
+
+/***/ "./src/assets/random.png":
+/*!*******************************!*\
+  !*** ./src/assets/random.png ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "random.png";
 
 /***/ }),
 
@@ -17974,9 +18062,25 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_skeleton_warrior_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../assets/skeleton_warrior.png */ "./src/assets/skeleton_warrior.png");
 /* harmony import */ var _assets_jukusan_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../assets/jukusan.png */ "./src/assets/jukusan.png");
 /* harmony import */ var _assets_visna_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../assets/visna.png */ "./src/assets/visna.png");
-/* harmony import */ var _assets_orc_1_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../assets/orc_1.png */ "./src/assets/orc_1.png");
-/* harmony import */ var _assets_orc_2_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../assets/orc_2.png */ "./src/assets/orc_2.png");
-/* harmony import */ var _assets_orc_3_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../assets/orc_3.png */ "./src/assets/orc_3.png");
+/* harmony import */ var _assets_heiko_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../assets/heiko.png */ "./src/assets/heiko.png");
+/* harmony import */ var _assets_kati_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../assets/kati.png */ "./src/assets/kati.png");
+/* harmony import */ var _assets_orc_1_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../assets/orc_1.png */ "./src/assets/orc_1.png");
+/* harmony import */ var _assets_orc_2_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../assets/orc_2.png */ "./src/assets/orc_2.png");
+/* harmony import */ var _assets_orc_3_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../assets/orc_3.png */ "./src/assets/orc_3.png");
+/* harmony import */ var _assets_adabra_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../assets/adabra.png */ "./src/assets/adabra.png");
+/* harmony import */ var _assets_dazlyn_png__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../assets/dazlyn.png */ "./src/assets/dazlyn.png");
+/* harmony import */ var _assets_gnerkli_png__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../assets/gnerkli.png */ "./src/assets/gnerkli.png");
+/* harmony import */ var _assets_korboz_png__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../assets/korboz.png */ "./src/assets/korboz.png");
+/* harmony import */ var _assets_norbus_png__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../assets/norbus.png */ "./src/assets/norbus.png");
+/* harmony import */ var _assets_random_png__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../assets/random.png */ "./src/assets/random.png");
+
+
+
+
+
+
+
+
 
 
 
@@ -18033,9 +18137,17 @@ const handleFields = {
     return `
       <option value="jukusan">Jukusan</option>
       <option value="visna">Visna</option>
+      <option value="heiko">Heiko</option>
+      <option value="kati">Kati</option>
       <option value="orc_1">Orc_1</option>
       <option value="orc_2">Orc_2</option>
       <option value="orc_3">Orc_3</option>
+      <option value="adabra">Adabra</option>
+      <option value="dazlyn">Dazlyn</option>
+      <option value="gnerkli">Gnerkli</option>
+      <option value="korboz">Korboz</option>
+      <option value="norbus">Norbus</option>
+      <option value="random">Random</option>
     `;
   },
   newField: (t) => {
@@ -18253,4 +18365,4 @@ btn.addEventListener("click", () => {
 
 /******/ })()
 ;
-//# sourceMappingURL=index.bundle.303a6ea2975b1d8a9808.js.map
+//# sourceMappingURL=index.bundle.9ff958a911039bac51af.js.map

@@ -40,11 +40,19 @@ body {
 }
 
 .combatant-player {
-  background-color: #d7d8d8;
-  border: 3px solid #d7d8d8;
+  background-color: #f8f7f7;
+  border: 3px groove #b6b9bc;
+  // background-color: #214617;
+  // border: 3px groove #214617;
+  opacity: 0.7;
+}
+
+.combatant-player > div > p {
+  color: black;
 }
 
 .combatant-enemy {
+  opacity: 0.7;
   border: 3px solid #8e1b1b;
   background-color: #8e1b1b;
   color: #fbdfaa;
@@ -61,20 +69,23 @@ body {
 .combatant-card-name p {
   font-family: $cinzel;
   font-weight: 600;
-  font-size: 10px;
+  font-size: 12px;
   margin: 0;
   text-align: center;
 }
 
 .combatant-slide-active {
   background-color: #e0c984;
-  transform: scale(1.1);
-  border: 3px solid #e0c984;
+  border: 3px groove #d0a372;
   color: #1b2732;
+  opacity: 1;
+  width: 80px;
+  height: 120px;
 }
 
 .combatant-slide-active > div > p {
-  font-size: 10px;
+  font-size: 14px;
+  color: #4b4646;
 }
 
 #idle-screen {

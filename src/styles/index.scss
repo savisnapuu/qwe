@@ -8,6 +8,10 @@ $cinzel: "Cinzel", serif;
   font-family: $poppins;
 }
 
+select {
+  max-width: 80px;
+}
+
 .f1 {
   display: flex;
   align-items: center;
@@ -296,6 +300,7 @@ body {
   gap: 5px;
   overflow: auto;
   height: 180px;
+  padding: 0px 20px;
 }
 
 #combatant-en-form-container {
@@ -304,6 +309,7 @@ body {
   gap: 5px;
   overflow: auto;
   height: 180px;
+  padding: 0px 20px;
 }
 
 .ci-remove {

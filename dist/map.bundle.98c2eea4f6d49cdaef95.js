@@ -17995,15 +17995,15 @@ const handleSlides = {
       } else {
         div.classList.add("combatant-player");
       }
-      div.innerHTML = handleSlides.slideHtml(data[i].name);
+      div.innerHTML = handleSlides.slideHtml(data[i].name, data[i].img);
       t.append(div);
       div.setAttribute("data-name", data[i].name);
     }
   },
-  slideHtml(name) {
+  slideHtml(name, img) {
     return `
         <div class="combatant-card-image">
-          <img src="${_assets_skeleton_mage_png__WEBPACK_IMPORTED_MODULE_2__}" class="combatant-image">
+          <img src="./${img}.png" class="combatant-image">
         </div>
         <div class="combatant-card-name">
           <p>${name}</p>
@@ -18047,4 +18047,4 @@ eq.forEach((el) => (el.src = _assets_skeleton_mage_png__WEBPACK_IMPORTED_MODULE_
 
 /******/ })()
 ;
-//# sourceMappingURL=map.bundle.178878d32bf4390bf648.js.map
+//# sourceMappingURL=map.bundle.98c2eea4f6d49cdaef95.js.map
