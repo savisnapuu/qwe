@@ -18,7 +18,11 @@ body {
 
 #combatant-tracker {
   display: flex;
-  rotate: 270deg;
+  transform: rotate(270deg);
+  -ms-transform: rotate(270deg); /* IE 9 */
+  -moz-transform: rotate(270deg); /* Firefox */
+  -webkit-transform: rotate(270deg); /* Safari and Chrome */
+  -o-transform: rotate(270deg); /* Opera */
   width: 1200px;
   justify-content: center;
   gap: 5px;
@@ -101,4 +105,8 @@ body {
 
 #idle-screen-img {
   transform: rotate(270deg);
+  -ms-transform: rotate(270deg); /* IE 9 */
+  -moz-transform: rotate(270deg); /* Firefox */
+  -webkit-transform: rotate(270deg); /* Safari and Chrome */
+  -o-transform: rotate(270deg); /* Opera */
 }
