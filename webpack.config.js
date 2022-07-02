@@ -12,6 +12,7 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     clean: true,
     assetModuleFilename: "[name][ext]",
+    publicPath: "/",
   },
   devtool: "source-map",
   devServer: {

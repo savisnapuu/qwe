@@ -171,7 +171,7 @@ const handleSlides = {
   slideHtml(name, img) {
     return `
         <div class="combatant-card-image">
-          <img src="../src/assets/${img}.png" class="combatant-image">
+          <img src="/${img}.png" class="combatant-image">
         </div>
         <div class="combatant-card-name">
           <p>${name}</p>
