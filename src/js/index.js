@@ -3,6 +3,11 @@ import "../styles/index.scss";
 import logo from "../assets/swordnshield.svg";
 import skeletonMage from "../assets/skeleton_mage.png";
 import skeletonWarrior from "../assets/skeleton_warrior.png";
+import "../assets/jukusan.png";
+import "../assets/visna.png";
+import "../assets/orc_1.png";
+import "../assets/orc_2.png";
+import "../assets/orc_3.png";
 
 document.getElementById("main-logo").src = logo;
 
