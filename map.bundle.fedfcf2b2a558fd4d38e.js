@@ -1,10 +1,10 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss":
-/*!************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss ***!
-  \************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/map.scss":
+/*!**********************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/map.scss ***!
+  \**********************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -20,10 +20,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
-___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap);"]);
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\n  font-family: \"Poppins\", sans-serif;\n}\n\n.f1 {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n}\n\na {\n  color: inherit; /* blue colors for links too */\n  text-decoration: inherit; /* no underline */\n}\n\nform {\n  display: flex;\n}\n\n.combatant-form {\n  display: flex;\n  max-height: 25px;\n  gap: 2px;\n}\n\nbody {\n  margin: 0;\n  background-color: #1b232a;\n}\n\n.center {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n\n.btn1 {\n  background-color: #bffff1;\n  border: none;\n  font-size: 14px;\n  font-weight: 600;\n  color: #434547;\n  text-transform: uppercase;\n  padding: 5px 10px;\n  border: 2px solid #bffff1;\n  width: 100%;\n}\n\n.btn1:hover {\n  border: 2px solid #bffff1;\n  background-color: white;\n  cursor: pointer;\n  color: black;\n  transition-duration: 0.4s;\n}\n\n#clear-combat-tracker {\n  background-color: #b04444;\n  color: white;\n  border: 2px solid #b04444;\n}\n\n#clear-combat-tracker:hover {\n  background-color: white;\n  color: #b04444;\n  border: 2px solid #b04444;\n  transition-duration: 0.4s;\n}\n\n.container-main {\n  display: flex;\n  justify-content: center;\n  flex-direction: column;\n  align-items: center;\n  padding: 20px 0px;\n  gap: 20px;\n}\n\n.container {\n  max-width: 1600px;\n  width: 100%;\n  gap: 20px;\n}\n\n.header {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n\n.header-img img {\n  width: 50px;\n  margin-bottom: -10px;\n}\n\n.header-title h1 {\n  color: white;\n  margin: 0;\n  font-size: 24px;\n}\n\n.dashboard {\n  display: flex;\n  gap: 20px;\n}\n\n.dashboard-header {\n  margin: 0;\n  color: white;\n}\n\n.dashboard-left {\n  max-width: 230px;\n  width: 100%;\n  display: flex;\n  flex-direction: column;\n}\n\n.dashboard-left div {\n  display: flex;\n  flex-direction: column;\n  flex-grow: 1;\n}\n\n.dashboard-middle-container {\n  display: flex;\n  height: 250px;\n  width: 100%;\n  background-color: rgba(99, 95, 111, 0.568627451);\n  border-radius: 15px;\n}\n\n.pl-name {\n  max-width: 150px;\n  width: 100%;\n}\n\n.pl-hp {\n  max-width: 50px;\n  width: 100%;\n  text-align: center;\n}\n\n.pl-initiative {\n  max-width: 50px;\n  width: 100%;\n  text-align: center;\n}\n\n.pl-bonus {\n  max-width: 50px;\n  width: 100%;\n  text-align: center;\n}\n\n.en-name {\n  max-width: 150px;\n  width: 100%;\n}\n\n.en-hp {\n  max-width: 50px;\n  width: 100%;\n  text-align: center;\n}\n\n.en-initiative {\n  max-width: 50px;\n  width: 100%;\n  text-align: center;\n}\n\n.en-bonus {\n  max-width: 50px;\n  width: 100%;\n  text-align: center;\n}\n\n.dashboard-middle-container-left,\n.dashboard-middle-container-right {\n  width: 50%;\n}\n\n.dashboard-middle-line {\n  width: 1px;\n  background-color: rgba(143, 143, 143, 0.4705882353);\n  height: 90%;\n  align-self: center;\n}\n\n.dashboard-right {\n  display: flex;\n  flex-direction: column;\n  max-width: 230px;\n  width: 100%;\n  justify-content: center;\n  gap: 20px;\n}\n\n.map-form {\n  background-color: rgba(99, 95, 111, 0.568627451);\n  padding: 10px;\n  border-radius: 10px;\n  display: flex;\n  flex-direction: column;\n  gap: 5px;\n  flex-grow: 1;\n  justify-content: center;\n}\n\n.dashboard-middle {\n  flex-grow: 1;\n}\n\n#map-img {\n  width: 1100px;\n  height: 500px;\n  border: 7px groove #bab9b7;\n  display: flex;\n  border-radius: 15px;\n}\n\n#submit-image-url {\n  max-width: 400px;\n  width: 100%;\n  box-sizing: border-box;\n}\n\n.combatant-header {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  margin: 10px;\n  color: white;\n  gap: 5px;\n}\n\n#add-new-player {\n  background-color: white;\n  border-radius: 50px;\n  color: #1b232a;\n  transition: transform 0.25s, opacity 0.25s;\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n}\n\n#add-new-player:hover {\n  background-color: #bffff1;\n  cursor: pointer;\n  transform: rotate(90deg);\n  outline: none;\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n}\n\n#add-new-enemy {\n  background-color: white;\n  border-radius: 50px;\n  color: #1b232a;\n  transition: transform 0.25s, opacity 0.25s;\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n}\n\n#add-new-enemy:hover {\n  background-color: #bffff1;\n  cursor: pointer;\n  transform: rotate(90deg);\n  outline: none;\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n}\n\n#combatant-pl-form-container {\n  display: flex;\n  flex-direction: column;\n  gap: 5px;\n  overflow: auto;\n  height: 180px;\n}\n\n#combatant-en-form-container {\n  display: flex;\n  flex-direction: column;\n  gap: 5px;\n  overflow: auto;\n  height: 180px;\n}\n\n.ci-remove {\n  background-color: #b04444;\n  border: none;\n  color: white;\n  border-radius: 2px;\n  font-weight: 500;\n}\n\n.ci-remove:hover {\n  cursor: pointer;\n  background-color: white;\n  color: #b04444;\n  transition-duration: 0.4s;\n}\n\n.ci-dice {\n  background-color: rgba(17, 138, 178, 0.7411764706);\n  border: none;\n  color: white;\n  cursor: pointer;\n}\n\n.ci-dice:hover {\n  background-color: white;\n  border: none;\n  color: rgba(17, 138, 178, 0.7411764706);\n  transition-duration: 0.4s;\n}\n\n.combatant-form-row {\n  display: flex;\n  justify-content: center;\n}\n\n#combatant-tracker {\n  display: flex;\n  gap: 20px;\n}\n\n.combatant-slide {\n  width: 80px;\n  height: 120px;\n  display: flex;\n  flex-direction: column;\n}\n\n.combatant-image {\n  width: 100%;\n}\n\n.combatant-player {\n  background-color: #f8f7f7;\n  border: 3px solid #f8f7f7;\n}\n\n.combatant-enemy {\n  border: 3px solid #8e1b1b;\n  background-color: #8e1b1b;\n  color: #fbdfaa;\n}\n\n.combatant-card-name {\n  overflow: auto;\n  height: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.combatant-card-name p {\n  font-family: \"Cinzel\", serif;\n  font-weight: 600;\n  font-size: 14px;\n  margin: 0;\n  text-align: center;\n}\n\n.combatant-slide-active {\n  background-color: #e0c984;\n  transform: scale(1.1);\n  border: 3px solid #e0c984;\n  color: #1b2732;\n}\n\n.combatant-slide-active {\n  --borderWidth: 3px;\n  position: relative;\n  border-radius: var(--borderWidth);\n}\n\n.arrow-btn {\n  font-size: 20px;\n  cursor: pointer;\n}", "",{"version":3,"sources":["webpack://./src/styles/index.scss"],"names":[],"mappings":"AAMA;EACE,kCAJQ;AACV;;AAMA;EACE,aAAA;EACA,mBAAA;EACA,SAAA;AAHF;;AAMA;EACE,cAAA,EAAA,8BAAA;EACA,wBAAA,EAAA,iBAAA;AAHF;;AAMA;EACE,aAAA;AAHF;;AAMA;EACE,aAAA;EACA,gBAAA;EACA,QAAA;AAHF;;AASA;EACE,SAAA;EACA,yBAAA;AANF;;AASA;EACE,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;AANF;;AASA;EACE,yBAAA;EACA,YAAA;EACA,eAAA;EACA,gBAAA;EACA,cAAA;EACA,yBAAA;EACA,iBAAA;EACA,yBAAA;EACA,WAAA;AANF;;AASA;EACE,yBAAA;EACA,uBAAA;EACA,eAAA;EACA,YAAA;EACA,yBAAA;AANF;;AASA;EACE,yBAAA;EACA,YAAA;EACA,yBAAA;AANF;;AASA;EACE,uBAAA;EACA,cAAA;EACA,yBAAA;EACA,yBAAA;AANF;;AASA;EACE,aAAA;EACA,uBAAA;EACA,sBAAA;EACA,mBAAA;EACA,iBAAA;EACA,SAAA;AANF;;AASA;EACE,iBAAA;EACA,WAAA;EACA,SAAA;AANF;;AASA;EACE,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;AANF;;AASA;EACE,WAAA;EACA,oBAAA;AANF;;AASA;EACE,YAAA;EACA,SAAA;EACA,eAAA;AANF;;AASA;EACE,aAAA;EACA,SAAA;AANF;;AASA;EACE,SAAA;EACA,YAAA;AANF;;AASA;EACE,gBAAA;EACA,WAAA;EACA,aAAA;EACA,sBAAA;AANF;;AASA;EACE,aAAA;EACA,sBAAA;EACA,YAAA;AANF;;AASA;EACE,aAAA;EACA,aAAA;EACA,WAAA;EACA,gDAAA;EACA,mBAAA;AANF;;AASA;EACE,gBAAA;EACA,WAAA;AANF;;AASA;EACE,eAAA;EACA,WAAA;EACA,kBAAA;AANF;;AASA;EACE,eAAA;EACA,WAAA;EACA,kBAAA;AANF;;AASA;EACE,eAAA;EACA,WAAA;EACA,kBAAA;AANF;;AASA;EACE,gBAAA;EACA,WAAA;AANF;;AASA;EACE,eAAA;EACA,WAAA;EACA,kBAAA;AANF;;AASA;EACE,eAAA;EACA,WAAA;EACA,kBAAA;AANF;;AASA;EACE,eAAA;EACA,WAAA;EACA,kBAAA;AANF;;AASA;;EAEE,UAAA;AANF;;AASA;EACE,UAAA;EACA,mDAAA;EACA,WAAA;EACA,kBAAA;AANF;;AASA;EACE,aAAA;EACA,sBAAA;EACA,gBAAA;EACA,WAAA;EACA,uBAAA;EACA,SAAA;AANF;;AASA;EACE,gDAAA;EACA,aAAA;EACA,mBAAA;EACA,aAAA;EACA,sBAAA;EACA,QAAA;EACA,YAAA;EACA,uBAAA;AANF;;AASA;EACE,YAAA;AANF;;AASA;EACE,aAAA;EACA,aAAA;EACA,0BAAA;EACA,aAAA;EACA,mBAAA;AANF;;AASA;EACE,gBAAA;EACA,WAAA;EACA,sBAAA;AANF;;AASA;EACE,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,YAAA;EACA,YAAA;EACA,QAAA;AANF;;AASA;EACE,uBAAA;EACA,mBAAA;EACA,cAAA;EACA,0CAAA;EACA,yBAAA;EACA,sBAAA;EACA,qBAAA;EACA,iBAAA;AANF;;AASA;EACE,yBAAA;EACA,eAAA;EACA,wBAAA;EACA,aAAA;EACA,yBAAA;EACA,sBAAA;EACA,qBAAA;EACA,iBAAA;AANF;;AASA;EACE,uBAAA;EACA,mBAAA;EACA,cAAA;EACA,0CAAA;EACA,yBAAA;EACA,sBAAA;EACA,qBAAA;EACA,iBAAA;AANF;;AASA;EACE,yBAAA;EACA,eAAA;EACA,wBAAA;EACA,aAAA;EACA,yBAAA;EACA,sBAAA;EACA,qBAAA;EACA,iBAAA;AANF;;AASA;EACE,aAAA;EACA,sBAAA;EACA,QAAA;EACA,cAAA;EACA,aAAA;AANF;;AASA;EACE,aAAA;EACA,sBAAA;EACA,QAAA;EACA,cAAA;EACA,aAAA;AANF;;AASA;EACE,yBAAA;EACA,YAAA;EACA,YAAA;EACA,kBAAA;EACA,gBAAA;AANF;;AASA;EACE,eAAA;EACA,uBAAA;EACA,cAAA;EACA,yBAAA;AANF;;AASA;EACE,kDAAA;EACA,YAAA;EACA,YAAA;EACA,eAAA;AANF;;AASA;EACE,uBAAA;EACA,YAAA;EACA,uCAAA;EACA,yBAAA;AANF;;AASA;EACE,aAAA;EACA,uBAAA;AANF;;AASA;EACE,aAAA;EACA,SAAA;AANF;;AASA;EACE,WAAA;EACA,aAAA;EACA,aAAA;EACA,sBAAA;AANF;;AASA;EACE,WAAA;AANF;;AASA;EACE,yBAAA;EACA,yBAAA;AANF;;AASA;EACE,yBAAA;EACA,yBAAA;EACA,cAAA;AANF;;AASA;EACE,cAAA;EACA,YAAA;EACA,aAAA;EACA,uBAAA;EACA,mBAAA;AANF;;AASA;EACE,4BAtXO;EAuXP,gBAAA;EACA,eAAA;EACA,SAAA;EACA,kBAAA;AANF;;AASA;EACE,yBAAA;EACA,qBAAA;EACA,yBAAA;EACA,cAAA;AANF;;AASA;EACE,kBAAA;EACA,kBAAA;EACA,iCAAA;AANF;;AASA;EACE,eAAA;EACA,eAAA;AANF","sourcesContent":["@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap);\n@import url(https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&display=swap);\n\n$poppins: \"Poppins\", sans-serif;\n$cinzel: \"Cinzel\", serif;\n\n* {\n  font-family: $poppins;\n}\n\n.f1 {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n}\n\na {\n  color: inherit; /* blue colors for links too */\n  text-decoration: inherit; /* no underline */\n}\n\nform {\n  display: flex;\n}\n\n.combatant-form {\n  display: flex;\n  max-height: 25px;\n  gap: 2px;\n}\n\ninput {\n}\n\nbody {\n  margin: 0;\n  background-color: #1b232a;\n}\n\n.center {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n\n.btn1 {\n  background-color: #bffff1;\n  border: none;\n  font-size: 14px;\n  font-weight: 600;\n  color: #434547;\n  text-transform: uppercase;\n  padding: 5px 10px;\n  border: 2px solid #bffff1;\n  width: 100%;\n}\n\n.btn1:hover {\n  border: 2px solid #bffff1;\n  background-color: white;\n  cursor: pointer;\n  color: black;\n  transition-duration: 0.4s;\n}\n\n#clear-combat-tracker {\n  background-color: #b04444;\n  color: white;\n  border: 2px solid #b04444;\n}\n\n#clear-combat-tracker:hover {\n  background-color: white;\n  color: #b04444;\n  border: 2px solid #b04444;\n  transition-duration: 0.4s;\n}\n\n.container-main {\n  display: flex;\n  justify-content: center;\n  flex-direction: column;\n  align-items: center;\n  padding: 20px 0px;\n  gap: 20px;\n}\n\n.container {\n  max-width: 1600px;\n  width: 100%;\n  gap: 20px;\n}\n\n.header {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n\n.header-img img {\n  width: 50px;\n  margin-bottom: -10px;\n}\n\n.header-title h1 {\n  color: white;\n  margin: 0;\n  font-size: 24px;\n}\n\n.dashboard {\n  display: flex;\n  gap: 20px;\n}\n\n.dashboard-header {\n  margin: 0;\n  color: white;\n}\n\n.dashboard-left {\n  max-width: 230px;\n  width: 100%;\n  display: flex;\n  flex-direction: column;\n}\n\n.dashboard-left div {\n  display: flex;\n  flex-direction: column;\n  flex-grow: 1;\n}\n\n.dashboard-middle-container {\n  display: flex;\n  height: 250px;\n  width: 100%;\n  background-color: #635f6f91;\n  border-radius: 15px;\n}\n\n.pl-name {\n  max-width: 150px;\n  width: 100%;\n}\n\n.pl-hp {\n  max-width: 50px;\n  width: 100%;\n  text-align: center;\n}\n\n.pl-initiative {\n  max-width: 50px;\n  width: 100%;\n  text-align: center;\n}\n\n.pl-bonus {\n  max-width: 50px;\n  width: 100%;\n  text-align: center;\n}\n\n.en-name {\n  max-width: 150px;\n  width: 100%;\n}\n\n.en-hp {\n  max-width: 50px;\n  width: 100%;\n  text-align: center;\n}\n\n.en-initiative {\n  max-width: 50px;\n  width: 100%;\n  text-align: center;\n}\n\n.en-bonus {\n  max-width: 50px;\n  width: 100%;\n  text-align: center;\n}\n\n.dashboard-middle-container-left,\n.dashboard-middle-container-right {\n  width: 50%;\n}\n\n.dashboard-middle-line {\n  width: 1px;\n  background-color: #8f8f8f78;\n  height: 90%;\n  align-self: center;\n}\n\n.dashboard-right {\n  display: flex;\n  flex-direction: column;\n  max-width: 230px;\n  width: 100%;\n  justify-content: center;\n  gap: 20px;\n}\n\n.map-form {\n  background-color: #635f6f91;\n  padding: 10px;\n  border-radius: 10px;\n  display: flex;\n  flex-direction: column;\n  gap: 5px;\n  flex-grow: 1;\n  justify-content: center;\n}\n\n.dashboard-middle {\n  flex-grow: 1;\n}\n\n#map-img {\n  width: 1100px;\n  height: 500px;\n  border: 7px groove #bab9b7;\n  display: flex;\n  border-radius: 15px;\n}\n\n#submit-image-url {\n  max-width: 400px;\n  width: 100%;\n  box-sizing: border-box;\n}\n\n.combatant-header {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  margin: 10px;\n  color: white;\n  gap: 5px;\n}\n\n#add-new-player {\n  background-color: white;\n  border-radius: 50px;\n  color: #1b232a;\n  transition: transform 0.25s, opacity 0.25s;\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n}\n\n#add-new-player:hover {\n  background-color: #bffff1;\n  cursor: pointer;\n  transform: rotate(90deg);\n  outline: none;\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n}\n\n#add-new-enemy {\n  background-color: white;\n  border-radius: 50px;\n  color: #1b232a;\n  transition: transform 0.25s, opacity 0.25s;\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n}\n\n#add-new-enemy:hover {\n  background-color: #bffff1;\n  cursor: pointer;\n  transform: rotate(90deg);\n  outline: none;\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n}\n\n#combatant-pl-form-container {\n  display: flex;\n  flex-direction: column;\n  gap: 5px;\n  overflow: auto;\n  height: 180px;\n}\n\n#combatant-en-form-container {\n  display: flex;\n  flex-direction: column;\n  gap: 5px;\n  overflow: auto;\n  height: 180px;\n}\n\n.ci-remove {\n  background-color: #b04444;\n  border: none;\n  color: white;\n  border-radius: 2px;\n  font-weight: 500;\n}\n\n.ci-remove:hover {\n  cursor: pointer;\n  background-color: white;\n  color: #b04444;\n  transition-duration: 0.4s;\n}\n\n.ci-dice {\n  background-color: #118ab2bd;\n  border: none;\n  color: white;\n  cursor: pointer;\n}\n\n.ci-dice:hover {\n  background-color: white;\n  border: none;\n  color: #118ab2bd;\n  transition-duration: 0.4s;\n}\n\n.combatant-form-row {\n  display: flex;\n  justify-content: center;\n}\n\n#combatant-tracker {\n  display: flex;\n  gap: 20px;\n}\n\n.combatant-slide {\n  width: 80px;\n  height: 120px;\n  display: flex;\n  flex-direction: column;\n}\n\n.combatant-image {\n  width: 100%;\n}\n\n.combatant-player {\n  background-color: #f8f7f7;\n  border: 3px solid #f8f7f7;\n}\n\n.combatant-enemy {\n  border: 3px solid #8e1b1b;\n  background-color: #8e1b1b;\n  color: #fbdfaa;\n}\n\n.combatant-card-name {\n  overflow: auto;\n  height: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.combatant-card-name p {\n  font-family: $cinzel;\n  font-weight: 600;\n  font-size: 14px;\n  margin: 0;\n  text-align: center;\n}\n\n.combatant-slide-active {\n  background-color: #e0c984;\n  transform: scale(1.1);\n  border: 3px solid #e0c984;\n  color: #1b2732;\n}\n\n.combatant-slide-active {\n  --borderWidth: 3px;\n  position: relative;\n  border-radius: var(--borderWidth);\n}\n\n.arrow-btn {\n  font-size: 20px;\n  cursor: pointer;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "body {\n  height: 100vh;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  margin: 0;\n  justify-content: flex-start;\n}\n\n#main-img {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n}\n\n#combatant-tracker {\n  display: flex;\n  transform: rotate(270deg);\n  -ms-transform: rotate(270deg); /* IE 9 */\n  -moz-transform: rotate(270deg); /* Firefox */\n  -webkit-transform: rotate(270deg); /* Safari and Chrome */\n  -o-transform: rotate(270deg); /* Opera */\n  width: 1200px;\n  justify-content: center;\n  gap: 5px;\n  align-items: start;\n  float: left;\n  left: -512px;\n  position: absolute;\n}\n\n.combatant-slide {\n  width: 60px;\n  height: 100px;\n  display: flex;\n  flex-direction: column;\n}\n\n.combatant-image {\n  width: 100%;\n}\n\n.combatant-player {\n  background-color: #f8f7f7;\n  border: 3px groove #b6b9bc;\n  opacity: 0.7;\n}\n\n.combatant-player > div > p {\n  color: black;\n}\n\n.combatant-enemy {\n  opacity: 0.7;\n  border: 3px solid #8e1b1b;\n  background-color: #8e1b1b;\n  color: #fbdfaa;\n}\n\n.combatant-card-name {\n  overflow: auto;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: 100%;\n}\n\n.combatant-card-name p {\n  font-family: \"Cinzel\", serif;\n  font-weight: 600;\n  font-size: 12px;\n  margin: 0;\n  text-align: center;\n}\n\n.combatant-slide-active {\n  background-color: #e0c984;\n  border: 3px groove #d0a372;\n  color: #1b2732;\n  opacity: 1;\n  width: 80px;\n  height: 120px;\n}\n\n.combatant-slide-active > div > p {\n  font-size: 14px;\n  color: #4b4646;\n}\n\n#idle-screen {\n  position: absolute;\n  width: 100vw;\n  height: 100vh;\n  display: flex;\n  justify-content: center;\n  background-color: black;\n  z-index: 10;\n  transition: visibility 0s, opacity 1s linear;\n}\n\n#idle-screen-img {\n  transform: rotate(270deg);\n  -ms-transform: rotate(270deg); /* IE 9 */\n  -moz-transform: rotate(270deg); /* Firefox */\n  -webkit-transform: rotate(270deg); /* Safari and Chrome */\n  -o-transform: rotate(270deg); /* Opera */\n}", "",{"version":3,"sources":["webpack://./src/styles/map.scss"],"names":[],"mappings":"AAGA;EACE,aAAA;EACA,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,SAAA;EACA,2BAAA;AADF;;AAIA;EACE,kBAAA;EACA,WAAA;EACA,YAAA;AADF;;AAIA;EACE,aAAA;EACA,yBAAA;EACA,6BAAA,EAAA,SAAA;EACA,8BAAA,EAAA,YAAA;EACA,iCAAA,EAAA,sBAAA;EACA,4BAAA,EAAA,UAAA;EACA,aAAA;EACA,uBAAA;EACA,QAAA;EACA,kBAAA;EACA,WAAA;EACA,YAAA;EACA,kBAAA;AADF;;AAIA;EACE,WAAA;EACA,aAAA;EACA,aAAA;EACA,sBAAA;AADF;;AAIA;EACE,WAAA;AADF;;AAIA;EACE,yBAAA;EACA,0BAAA;EAGA,YAAA;AAHF;;AAMA;EACE,YAAA;AAHF;;AAMA;EACE,YAAA;EACA,yBAAA;EACA,yBAAA;EACA,cAAA;AAHF;;AAMA;EACE,cAAA;EACA,aAAA;EACA,mBAAA;EACA,uBAAA;EACA,YAAA;AAHF;;AAMA;EACE,4BAxEO;EAyEP,gBAAA;EACA,eAAA;EACA,SAAA;EACA,kBAAA;AAHF;;AAMA;EACE,yBAAA;EACA,0BAAA;EACA,cAAA;EACA,UAAA;EACA,WAAA;EACA,aAAA;AAHF;;AAMA;EACE,eAAA;EACA,cAAA;AAHF;;AAMA;EACE,kBAAA;EACA,YAAA;EACA,aAAA;EACA,aAAA;EACA,uBAAA;EACA,uBAAA;EACA,WAAA;EACA,4CAAA;AAHF;;AAMA;EACE,yBAAA;EACA,6BAAA,EAAA,SAAA;EACA,8BAAA,EAAA,YAAA;EACA,iCAAA,EAAA,sBAAA;EACA,4BAAA,EAAA,UAAA;AAHF","sourcesContent":["@import url(https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&display=swap);\n$cinzel: \"Cinzel\", serif;\n\nbody {\n  height: 100vh;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  margin: 0;\n  justify-content: flex-start;\n}\n\n#main-img {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n}\n\n#combatant-tracker {\n  display: flex;\n  transform: rotate(270deg);\n  -ms-transform: rotate(270deg); /* IE 9 */\n  -moz-transform: rotate(270deg); /* Firefox */\n  -webkit-transform: rotate(270deg); /* Safari and Chrome */\n  -o-transform: rotate(270deg); /* Opera */\n  width: 1200px;\n  justify-content: center;\n  gap: 5px;\n  align-items: start;\n  float: left;\n  left: -512px;\n  position: absolute;\n}\n\n.combatant-slide {\n  width: 60px;\n  height: 100px;\n  display: flex;\n  flex-direction: column;\n}\n\n.combatant-image {\n  width: 100%;\n}\n\n.combatant-player {\n  background-color: #f8f7f7;\n  border: 3px groove #b6b9bc;\n  // background-color: #214617;\n  // border: 3px groove #214617;\n  opacity: 0.7;\n}\n\n.combatant-player > div > p {\n  color: black;\n}\n\n.combatant-enemy {\n  opacity: 0.7;\n  border: 3px solid #8e1b1b;\n  background-color: #8e1b1b;\n  color: #fbdfaa;\n}\n\n.combatant-card-name {\n  overflow: auto;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: 100%;\n}\n\n.combatant-card-name p {\n  font-family: $cinzel;\n  font-weight: 600;\n  font-size: 12px;\n  margin: 0;\n  text-align: center;\n}\n\n.combatant-slide-active {\n  background-color: #e0c984;\n  border: 3px groove #d0a372;\n  color: #1b2732;\n  opacity: 1;\n  width: 80px;\n  height: 120px;\n}\n\n.combatant-slide-active > div > p {\n  font-size: 14px;\n  color: #4b4646;\n}\n\n#idle-screen {\n  position: absolute;\n  width: 100vw;\n  height: 100vh;\n  display: flex;\n  justify-content: center;\n  background-color: black;\n  z-index: 10;\n  transition: visibility 0s, opacity 1s linear;\n}\n\n#idle-screen-img {\n  transform: rotate(270deg);\n  -ms-transform: rotate(270deg); /* IE 9 */\n  -moz-transform: rotate(270deg); /* Firefox */\n  -webkit-transform: rotate(270deg); /* Safari and Chrome */\n  -o-transform: rotate(270deg); /* Opera */\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -17386,10 +17385,10 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 /***/ }),
 
-/***/ "./src/styles/index.scss":
-/*!*******************************!*\
-  !*** ./src/styles/index.scss ***!
-  \*******************************/
+/***/ "./src/styles/map.scss":
+/*!*****************************!*\
+  !*** ./src/styles/map.scss ***!
+  \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -17409,7 +17408,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_index_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./index.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/index.scss");
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_map_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./map.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/map.scss");
 
       
       
@@ -17431,12 +17430,12 @@ options.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWi
 options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
 options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
 
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_index_scss__WEBPACK_IMPORTED_MODULE_6__["default"], options);
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_map_scss__WEBPACK_IMPORTED_MODULE_6__["default"], options);
 
 
 
 
-       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_index_scss__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_index_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_index_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
+       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_map_scss__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_map_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_map_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
 
 
 /***/ }),
@@ -17753,135 +17752,14 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
-/***/ "./src/assets/adabra.png":
-/*!*******************************!*\
-  !*** ./src/assets/adabra.png ***!
-  \*******************************/
+/***/ "./src/assets/idle-screen.png":
+/*!************************************!*\
+  !*** ./src/assets/idle-screen.png ***!
+  \************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "adabra.png";
-
-/***/ }),
-
-/***/ "./src/assets/dazlyn.png":
-/*!*******************************!*\
-  !*** ./src/assets/dazlyn.png ***!
-  \*******************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "dazlyn.png";
-
-/***/ }),
-
-/***/ "./src/assets/gnerkli.png":
-/*!********************************!*\
-  !*** ./src/assets/gnerkli.png ***!
-  \********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "gnerkli.png";
-
-/***/ }),
-
-/***/ "./src/assets/heiko.png":
-/*!******************************!*\
-  !*** ./src/assets/heiko.png ***!
-  \******************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "heiko.png";
-
-/***/ }),
-
-/***/ "./src/assets/jukusan.png":
-/*!********************************!*\
-  !*** ./src/assets/jukusan.png ***!
-  \********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "jukusan.png";
-
-/***/ }),
-
-/***/ "./src/assets/kati.png":
-/*!*****************************!*\
-  !*** ./src/assets/kati.png ***!
-  \*****************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "kati.png";
-
-/***/ }),
-
-/***/ "./src/assets/korboz.png":
-/*!*******************************!*\
-  !*** ./src/assets/korboz.png ***!
-  \*******************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "korboz.png";
-
-/***/ }),
-
-/***/ "./src/assets/norbus.png":
-/*!*******************************!*\
-  !*** ./src/assets/norbus.png ***!
-  \*******************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "norbus.png";
-
-/***/ }),
-
-/***/ "./src/assets/orc_1.png":
-/*!******************************!*\
-  !*** ./src/assets/orc_1.png ***!
-  \******************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "orc_1.png";
-
-/***/ }),
-
-/***/ "./src/assets/orc_2.png":
-/*!******************************!*\
-  !*** ./src/assets/orc_2.png ***!
-  \******************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "orc_2.png";
-
-/***/ }),
-
-/***/ "./src/assets/orc_3.png":
-/*!******************************!*\
-  !*** ./src/assets/orc_3.png ***!
-  \******************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "orc_3.png";
-
-/***/ }),
-
-/***/ "./src/assets/random.png":
-/*!*******************************!*\
-  !*** ./src/assets/random.png ***!
-  \*******************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "random.png";
+module.exports = __webpack_require__.p + "idle-screen.png";
 
 /***/ }),
 
@@ -17893,39 +17771,6 @@ module.exports = __webpack_require__.p + "random.png";
 
 "use strict";
 module.exports = __webpack_require__.p + "skeleton_mage.png";
-
-/***/ }),
-
-/***/ "./src/assets/skeleton_warrior.png":
-/*!*****************************************!*\
-  !*** ./src/assets/skeleton_warrior.png ***!
-  \*****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "skeleton_warrior.png";
-
-/***/ }),
-
-/***/ "./src/assets/swordnshield.svg":
-/*!*************************************!*\
-  !*** ./src/assets/swordnshield.svg ***!
-  \*************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "swordnshield.svg";
-
-/***/ }),
-
-/***/ "./src/assets/visna.png":
-/*!******************************!*\
-  !*** ./src/assets/visna.png ***!
-  \******************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "visna.png";
 
 /***/ })
 
@@ -18050,214 +17895,110 @@ var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be in strict mode.
 (() => {
 "use strict";
-/*!*************************!*\
-  !*** ./src/js/index.js ***!
-  \*************************/
+/*!***********************!*\
+  !*** ./src/js/map.js ***!
+  \***********************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
 /* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _styles_index_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/index.scss */ "./src/styles/index.scss");
-/* harmony import */ var _assets_swordnshield_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/swordnshield.svg */ "./src/assets/swordnshield.svg");
-/* harmony import */ var _assets_skeleton_mage_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../assets/skeleton_mage.png */ "./src/assets/skeleton_mage.png");
-/* harmony import */ var _assets_skeleton_warrior_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../assets/skeleton_warrior.png */ "./src/assets/skeleton_warrior.png");
-/* harmony import */ var _assets_jukusan_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../assets/jukusan.png */ "./src/assets/jukusan.png");
-/* harmony import */ var _assets_visna_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../assets/visna.png */ "./src/assets/visna.png");
-/* harmony import */ var _assets_heiko_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../assets/heiko.png */ "./src/assets/heiko.png");
-/* harmony import */ var _assets_kati_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../assets/kati.png */ "./src/assets/kati.png");
-/* harmony import */ var _assets_orc_1_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../assets/orc_1.png */ "./src/assets/orc_1.png");
-/* harmony import */ var _assets_orc_2_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../assets/orc_2.png */ "./src/assets/orc_2.png");
-/* harmony import */ var _assets_orc_3_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../assets/orc_3.png */ "./src/assets/orc_3.png");
-/* harmony import */ var _assets_adabra_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../assets/adabra.png */ "./src/assets/adabra.png");
-/* harmony import */ var _assets_dazlyn_png__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../assets/dazlyn.png */ "./src/assets/dazlyn.png");
-/* harmony import */ var _assets_gnerkli_png__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../assets/gnerkli.png */ "./src/assets/gnerkli.png");
-/* harmony import */ var _assets_korboz_png__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../assets/korboz.png */ "./src/assets/korboz.png");
-/* harmony import */ var _assets_norbus_png__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../assets/norbus.png */ "./src/assets/norbus.png");
-/* harmony import */ var _assets_random_png__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../assets/random.png */ "./src/assets/random.png");
+/* harmony import */ var _styles_map_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/map.scss */ "./src/styles/map.scss");
+/* harmony import */ var _assets_skeleton_mage_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/skeleton_mage.png */ "./src/assets/skeleton_mage.png");
+/* harmony import */ var _assets_idle_screen_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../assets/idle-screen.png */ "./src/assets/idle-screen.png");
 
 
 
 
 
+document.getElementById("idle-screen-img").src = _assets_idle_screen_png__WEBPACK_IMPORTED_MODULE_3__;
 
+window.addEventListener("storage", () => {
+  if (localStorage.mapchange === "true") {
+    handleMapChange.changeMap();
+    localStorage.mapchange = "false";
+  }
+  if (localStorage.keypressright === "true") {
+    testSlides.moveRight();
+    localStorage.keypressright = "false";
+  }
+  if (localStorage.keypressleft === "true") {
+    testSlides.moveLeft();
+    localStorage.keypressleft = "false";
+  }
+  if (localStorage.slideIndexChange === "true") {
+    removeSlide(localStorage.slideIndex);
+    localStorage.slideIndexChange = "false";
+  }
+  if (localStorage.idleScreen === "true") {
+    idleActive ? (idleActive = false) : (idleActive = true);
+    idleActive ? hideIdle() : displayIdle();
+    localStorage.idleScreen = "false";
+  }
+  if (localStorage.clearTracker === "true") {
+    console.log("SOMETHING");
+    removeTracker();
+    localStorage.clearTracker = "false";
+  }
+  if (localStorage.newTracker === "true") {
+    handleSlides.makeSlides();
+    setActive();
+    localStorage.newTracker = "false";
+  }
+});
 
+function removeTracker() {
+  const t = document.getElementById("combatant-tracker");
+  while (t.firstChild) {
+    t.removeChild(t.lastChild);
+  }
+}
 
+function setActive() {
+  const t = document.getElementById("combatant-tracker");
+  t.children[0].classList.add("combatant-slide-active");
+}
 
+let idleActive = false;
 
+function displayIdle() {
+  const el = document.getElementById("idle-screen");
+  el.style.opacity = "1";
+}
+function hideIdle() {
+  const el = document.getElementById("idle-screen");
+  el.style.opacity = "0";
+}
 
+function removeSlide(index) {
+  const tracker = document.getElementById("combatant-tracker");
+  tracker.children[index].remove();
+}
 
-
-
-
-
-
-
-
-document.getElementById("main-logo").src = _assets_swordnshield_svg__WEBPACK_IMPORTED_MODULE_2__;
-
-const changeMap = {
-  showBattleMap: (t) => {
-    const url = document.getElementById(`${t}-url`).value;
-    const img = document.getElementById("map-img");
-    img.src = url;
-    changeMap.handleStorage(url);
-  },
-  handleDisplay() {
-    const buttons = document.querySelectorAll(".map-url");
-    buttons.forEach((el) =>
-      el.addEventListener("click", () => {
-        this.showBattleMap(el.getAttribute("data-value"));
-      })
-    );
-  },
-  handleStorage(value) {
-    localStorage.setItem("mapchange", "true");
-    localStorage.setItem("mapurl", value);
-  },
-};
-changeMap.handleDisplay();
-
-const handleFields = {
-  newPlayerField: () => {
-    const buttons = document.querySelectorAll(".new-combatant-field");
-    buttons.forEach((el) =>
-      el.addEventListener("click", () => {
-        handleFields.newField(el.getAttribute("data-value"));
-      })
-    );
-  },
-  htmlTemplate: (t) => {
-    return `
-      <input class="${t}-name" placeholder="Name" />
-      <input class="${t}-hp" placeholder="HP" />
-      <input class="${t}-initiative" placeholder="Init" />
-      <input class="${t}-bonus" placeholder="Bonus" />
-    `;
-  },
-  selectHtml() {
-    return `
-      <option value="jukusan">Jukusan</option>
-      <option value="visna">Visna</option>
-      <option value="heiko">Heiko</option>
-      <option value="kati">Kati</option>
-      <option value="orc_1">Orc_1</option>
-      <option value="orc_2">Orc_2</option>
-      <option value="orc_3">Orc_3</option>
-      <option value="adabra">Adabra</option>
-      <option value="dazlyn">Dazlyn</option>
-      <option value="gnerkli">Gnerkli</option>
-      <option value="korboz">Korboz</option>
-      <option value="norbus">Norbus</option>
-      <option value="random">Random</option>
-    `;
-  },
-  newField: (t) => {
-    const target = document.getElementById(`combatant-${t}-form-container`);
-    const form = document.createElement("form");
-    form.classList.add("combatant-form");
-    t === "pl"
-      ? form.setAttribute("combatant-type", "player")
-      : form.setAttribute("combatant-type", "enemy");
-    const finput = handleFields.htmlTemplate(t);
-    form.innerHTML = finput;
-    const div = document.createElement("div");
-    div.classList.add("combatant-form-row");
-    const button = handleFields.removeButton();
-    if (t === "en") {
-      const dice = handleFields.diceButton();
-      form.append(dice);
-    }
-    const select = document.createElement("select");
-    select.innerHTML = handleFields.selectHtml();
-    form.prepend(select);
-    form.append(button);
-    div.append(form);
-    target.append(div);
-  },
-  removeButton() {
-    const button = document.createElement("button");
-    button.classList.add("ci-remove");
-    button.textContent = "X";
-    button.type = "button";
-    button.addEventListener("click", () => {
-      button.parentElement.parentElement.remove();
-    });
-    return button;
-  },
-  diceButton() {
-    const button = document.createElement("button");
-    button.classList.add("material-symbols-outlined", "ci-dice");
-    button.textContent = "casino";
-    button.type = "button";
-    button.addEventListener("click", () => {
-      button.parentElement.children[2].value =
-        Math.floor(Math.random() * 20) + 1;
-    });
-    return button;
+const handleMapChange = {
+  changeMap: () => {
+    const t = document.getElementById("main-img");
+    const url = localStorage.getItem("mapurl");
+    console.log(url);
+    let a = JSON.parse(localStorage.getItem("combatantData"));
+    t.src = url;
   },
 };
-handleFields.newPlayerField();
-
-let combatantData = [];
-let sortedcombatantData = [];
-
-const handleCombatantsData = {
-  getData() {
-    const forms = document.querySelectorAll(".combatant-form");
-    forms.forEach((form) => {
-      let type = form.getAttribute("combatant-type");
-      let data = {
-        img: form[0].value,
-        name: form[1].value,
-        hp: Number(form[2].value),
-        init: Number(form[3].value) + Number(form[4].value),
-        type: type,
-      };
-      combatantData.push(data);
-    });
-  },
-  handleData: () => {
-    sortedcombatantData = combatantData.sort((a, b) => {
-      return b.init - a.init;
-    });
-    localStorage.setItem("combatantData", JSON.stringify(sortedcombatantData));
-  },
-  displayCombatants: () => {
-    const btn = document.getElementById("start-combat");
-    btn.addEventListener("click", () => {
-      handleCombatantsData.getData();
-      handleCombatantsData.handleData();
-      handleSlides.makeSlides();
-      handleSlides.setActive();
-      handleSlides.removeSlide();
-      localStorage.setItem("newTracker", "true");
-    });
-  },
-};
-
-handleCombatantsData.displayCombatants();
 
 const handleSlides = {
   makeSlides: () => {
+    let data = JSON.parse(localStorage.getItem("combatantData"));
     const t = document.getElementById("combatant-tracker");
-    for (let i = 0; i < sortedcombatantData.length; i++) {
+    for (let i = 0; i < data.length; i++) {
       const div = document.createElement("div");
       div.classList.add("combatant-slide");
-      if (sortedcombatantData[i].type === "enemy") {
+      if (data[i].type === "enemy") {
         div.classList.add("combatant-enemy");
       } else {
         div.classList.add("combatant-player");
       }
-      div.innerHTML = handleSlides.slideHtml(
-        sortedcombatantData[i].name,
-        sortedcombatantData[i].img
-      );
+      div.innerHTML = handleSlides.slideHtml(data[i].name, data[i].img);
       t.append(div);
-      div.setAttribute("data-name", sortedcombatantData[i].name);
+      div.setAttribute("data-name", data[i].name);
     }
-  },
-  setActive() {
-    const t = document.getElementById("combatant-tracker");
-    t.children[0].classList.add("combatant-slide-active");
   },
   slideHtml(name, img) {
     return `
@@ -18269,50 +18010,7 @@ const handleSlides = {
         </div>
     `;
   },
-  removeSlide() {
-    const slides = document.querySelectorAll(".combatant-slide");
-    slides.forEach((slide) =>
-      slide.addEventListener("click", () => {
-        if (slide.classList.contains("combatant-slide-active")) return;
-        let a = Array.from(slide.parentElement.children).indexOf(slide);
-        handleSlides.handleLocalStorage(a);
-        slide.remove();
-      })
-    );
-  },
-  handleLocalStorage(x) {
-    localStorage.setItem("slideIndex", x);
-    localStorage.setItem("slideIndexChange", "true");
-  },
 };
-
-const test12 = document.getElementById("display-map");
-test12.addEventListener("click", () => {
-  localStorage.setItem("battlemap", "test");
-});
-
-const handleSlideMovement = {
-  moveRight() {
-    const r = document.getElementById("arrow-right");
-    r.addEventListener("click", () => {
-      testSlides.moveRight();
-      localStorage.setItem("keypressright", "true");
-    });
-  },
-  moveLeft() {
-    const l = document.getElementById("arrow-left");
-    l.addEventListener("click", () => {
-      testSlides.moveLeft();
-      localStorage.setItem("keypressleft", "true");
-    });
-  },
-  handleBoth() {
-    this.moveRight();
-    this.moveLeft();
-  },
-};
-
-handleSlideMovement.handleBoth();
 
 const testSlides = {
   moveRight() {
@@ -18343,26 +18041,10 @@ const testSlides = {
 };
 
 const eq = document.querySelectorAll(".combatant-image");
-eq.forEach((el) => (el.src = _assets_skeleton_mage_png__WEBPACK_IMPORTED_MODULE_3__));
-
-const idleBtn = document.getElementById("idle-screen-btn");
-idleBtn.addEventListener("click", () => {
-  localStorage.setItem("idleScreen", "true");
-});
-
-const btn = document.getElementById("clear-combat-tracker");
-btn.addEventListener("click", () => {
-  const t = document.getElementById("combatant-tracker");
-  combatantData = [];
-  sortedcombatantData = [];
-  localStorage.setItem("clearTracker", "true");
-  while (t.firstChild) {
-    t.removeChild(t.lastChild);
-  }
-});
+eq.forEach((el) => (el.src = _assets_skeleton_mage_png__WEBPACK_IMPORTED_MODULE_2__));
 
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=index.bundle.9ff958a911039bac51af.js.map
+//# sourceMappingURL=map.bundle.fedfcf2b2a558fd4d38e.js.map
