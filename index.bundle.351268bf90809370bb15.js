@@ -17885,6 +17885,17 @@ module.exports = __webpack_require__.p + "random.png";
 
 /***/ }),
 
+/***/ "./src/assets/sants.png":
+/*!******************************!*\
+  !*** ./src/assets/sants.png ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "sants.png";
+
+/***/ }),
+
 /***/ "./src/assets/sepp.png":
 /*!*****************************!*\
   !*** ./src/assets/sepp.png ***!
@@ -18085,6 +18096,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_norbus_png__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../assets/norbus.png */ "./src/assets/norbus.png");
 /* harmony import */ var _assets_random_png__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../assets/random.png */ "./src/assets/random.png");
 /* harmony import */ var _assets_sepp_png__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../assets/sepp.png */ "./src/assets/sepp.png");
+/* harmony import */ var _assets_sants_png__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../assets/sants.png */ "./src/assets/sants.png");
+
 
 
 
@@ -18152,6 +18165,7 @@ const handleFields = {
       <option value="visna">Visna</option>
       <option value="heiko">Heiko</option>
       <option value="sepp">Sepp</option>
+      <option value="sants">Sants</option>
       <option value="kati">Kati</option>
       <option value="orc_1">Orc_1</option>
       <option value="orc_2">Orc_2</option>
@@ -18379,4 +18393,4 @@ btn.addEventListener("click", () => {
 
 /******/ })()
 ;
-//# sourceMappingURL=index.bundle.19edaf2df86a4ee3f63e.js.map
+//# sourceMappingURL=index.bundle.351268bf90809370bb15.js.map
