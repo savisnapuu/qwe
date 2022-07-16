@@ -17,6 +17,7 @@ import "../assets/korboz.png";
 import "../assets/norbus.png";
 import "../assets/random.png";
 import "../assets/sepp.png"
+import "../assets/sants.png"
 
 document.getElementById("main-logo").src = logo;
 
@@ -65,6 +66,7 @@ const handleFields = {
       <option value="visna">Visna</option>
       <option value="heiko">Heiko</option>
       <option value="sepp">Sepp</option>
+      <option value="sants">Sants</option>
       <option value="kati">Kati</option>
       <option value="orc_1">Orc_1</option>
       <option value="orc_2">Orc_2</option>
