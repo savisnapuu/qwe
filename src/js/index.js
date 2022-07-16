@@ -16,6 +16,7 @@ import "../assets/gnerkli.png";
 import "../assets/korboz.png";
 import "../assets/norbus.png";
 import "../assets/random.png";
+import "../assets/sepp.png"
 
 document.getElementById("main-logo").src = logo;
 
@@ -63,6 +64,7 @@ const handleFields = {
       <option value="jukusan">Jukusan</option>
       <option value="visna">Visna</option>
       <option value="heiko">Heiko</option>
+      <option value="sepp">Sepp</option>
       <option value="kati">Kati</option>
       <option value="orc_1">Orc_1</option>
       <option value="orc_2">Orc_2</option>
